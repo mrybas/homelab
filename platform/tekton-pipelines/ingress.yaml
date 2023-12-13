@@ -8,7 +8,6 @@ metadata:
     hajimari.io/appName: Tekton
     hajimari.io/icon: robot-industrial
 spec:
-  ingressClassName: nginx
   rules:
     - host: &host tekton.khuedoan.com
       http:

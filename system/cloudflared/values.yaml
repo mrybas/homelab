@@ -5,7 +5,7 @@ cloudflared:
     tunnel: homelab
     ingress:
       - hostname: '*.khuedoan.com'
-        service: https://ingress-nginx-controller.ingress-nginx
+        service: https://cilium-ingress.kube-system
         originRequest:
           noTLSVerify: true
       - service: http_status:404

@@ -1,13 +1,11 @@
 docker-registry:
   ingress:
     enabled: true
-    className: nginx
+    className: null
     hosts:
       - &host registry.khuedoan.com
     annotations:
       cert-manager.io/cluster-issuer: letsencrypt-prod
-      nginx.ingress.kubernetes.io/ssl-redirect: "true"
-      nginx.ingress.kubernetes.io/proxy-body-size: "0"
     tls:
       - secretName: registry-tls-certificate
         hosts:

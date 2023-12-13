@@ -1,9 +1,7 @@
 openspeedtest:
   ingress:
     enabled: true
-    className: nginx
     annotations:
-      nginx.ingress.kubernetes.io/proxy-body-size: 50m
       cert-manager.io/cluster-issuer: letsencrypt-prod
       hajimari.io/appName: Speedtest
       hajimari.io/icon: speedometer

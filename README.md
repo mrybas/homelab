@@ -181,11 +181,6 @@ They can't capture all the project's features, but they are sufficient to get a 
         <td>Cloud native distributed block storage for Kubernetes</td>
     </tr>
     <tr>
-        <td><img width="32" src="https://avatars.githubusercontent.com/u/1412239?s=200&v=4"></td>
-        <td><a href="https://www.nginx.com">NGINX</a></td>
-        <td>Kubernetes Ingress Controller</td>
-    </tr>
-    <tr>
         <td><img width="32" src="https://avatars.githubusercontent.com/u/3380462"></td>
         <td><a href="https://prometheus.io">Prometheus</a></td>
         <td>Systems monitoring and alerting toolkit</td>
